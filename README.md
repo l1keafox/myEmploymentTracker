@@ -1,9 +1,9 @@
 
-  # copyStack
+  # job Tracker
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  This is an barebones MERNS stack app ready to be copied and built apon.
+  An web app to track applications sent, communication received and offers.
 
   Tech used:
   Mongoose/MongoDB/Apollo
@@ -11,10 +11,7 @@
   React
   Node
   Socket.io
-  
-  Login system already built in:
-  Json web tokens used.
-  
+ 
   ## Table of Contents 
   1.  [Usage](#Usage)
   2.  [Installation](#Installation)
@@ -24,9 +21,6 @@
   6.  [License](#License)
   
   ## Usage 
-   Clone this repo.
-   Rename it and make sure it points to an new repo.
-   npm i to install depenancies.
   
   ## Contributing 
   We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's: 
