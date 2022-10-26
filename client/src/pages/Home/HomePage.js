@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 // stylesheet
-import { useQuery } from "@apollo/client";
+// import { useQuery } from "@apollo/client";
 
 // components
 import Login from "../../components/Login/Login.js";
@@ -14,8 +14,8 @@ import auth from "../../utils/auth";
 function HomePage() {
   const { existingUser } = useExistingUserContext();
 
-  const [scores, setScore] = useState([]);
-  const [gameTitle, setGameTitle] = useState("");
+  // const [scores, setScore] = useState([]);
+  // const [gameTitle, setGameTitle] = useState("");
 
   return (
     <div className="homeViewContainer">
